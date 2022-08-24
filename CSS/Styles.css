@@ -175,3 +175,39 @@ hr
     border-radius: 20px;
     text-decoration: none;
  }
+
+ .dark-button {
+    position: absolute;
+    left: -30px;
+	font-family: Arial;
+	color: #332e2e;
+	font-size: 16px;
+	border-radius: 15px;
+	border: 0px #a1cfcf solid;
+	background: linear-gradient(180deg, #e0ffff 5%, #a1cfcf 100%);
+	text-shadow: 1px 1px 1px #ffffff;
+	box-shadow: 2px -1px 13px -5px rgba(97, 97, 116, 0.45);
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+    text-decoration: none;
+}
+.dark-button:hover {
+	background: linear-gradient(180deg, #a1cfcf 5%, #e0ffff 100%);
+}
+.dark-button-icon {
+	padding: 7px 8px;
+	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+}
+.dark-button-icon svg {
+	vertical-align: middle;
+	position: relative;
+	font-size: 19px;
+	left: 38px;
+}
+.dark-button-text {
+	padding: 7px 33px;
+}
+
+
